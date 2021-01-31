@@ -1,0 +1,52 @@
+.light {
+    color: hsl(228, 12%, 44%);
+    background: hsl(225, 100%, 98%);
+}
+
+.body-light {
+    background: hsl(0, 0%, 100%);
+}
+
+.light-h1 h1 {
+    color: #111;
+}
+
+.light-text {
+    color: hsl(228, 12%, 44%) !important;
+}
+
+.slider-light {
+    background: hsl(230, 22%, 74%) !important;
+}
+
+.slider-light::before {
+    background-color: #fff;
+}
+
+.card-light {
+    color: hsl(228, 12%, 44%);
+    background: hsl(227, 47%, 96%) !important;
+}
+
+.card-light h2 {
+    color: #111;
+}
+
+.card-light h3 {
+    color: #111;
+}
+
+.card-light .up {
+    font-weight: bold;
+}
+
+.card-light .down {
+    font-weight: bold;
+}
+
+.card-light .numbers-up {
+    font-weight: bold;
+}
+.card-light .numbers-down {
+    font-weight: bold;
+}

@@ -1,0 +1,27 @@
+@import "./header.css";
+@import "./dashboard.css";
+@import "./overview.css";
+@import "./light-mode.css";
+@import "./mobile.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsl(230, 17%, 14%);
+    margin: 0;
+    padding: 0;
+}
+
+.App {
+    width: 80%;
+    height: 100vh;
+    margin: auto;
+}
+
+.attribution {
+    display: none;
+}

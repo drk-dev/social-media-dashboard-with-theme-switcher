@@ -1,0 +1,59 @@
+@media (max-width: 640px) {
+    body {
+        height: 100vh;
+    }
+    .App {
+        height: 100vh;
+        max-width: 375px;
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 100px;
+    }
+
+    .header {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20px;
+    }
+
+    .header h1 {
+        font-size: 1.2rem;
+        width: 100%;
+    }
+    .dashboard-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .overview-cards {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-left {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+        border-bottom: 1px solid hsl(228, 12%, 44%);
+    }
+
+    .header-right {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .attribution {
+        display: block !important;
+        font-size: 0.9rem;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        position: relative;
+        bottom: 0;
+        color: hsl(228, 12%, 44%);
+    }
+
+    .attribution a {
+        text-decoration: none;
+        color: #fff;
+    }
+}
